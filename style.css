@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .navbar li{
+    list-style:none;
+    display:inline;
+    color:white;
+    margin:40px;
+    letter-spacing:3px;
+    font-size:larger;
+    text-align: center;
+  }
+  .navbar li a:hover{
+    color:hotpink;
+    transition:0.3s;
+  
+  }
+  ul li a {
+   text-decoration: underline; 
+    color: white;
+    font-size:35px;
+  }
+  header{
+    text-align: center;
+  }
+  #preloader{
+    background: url("images/conloa.gif") no-repeat center center;
+      background-size: 100%;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+  }
+  h1,h2{
+    text-align:center;
+  }
+  
+  h1{
+    font-weight:700;
+    font-size:50px;
+    color:white;
+    font-family:monospace;
+  }
+  h2{
+     padding-top:240px;
+    color:hotpink;
+    font-size:35px;
+    font-weight:400;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:600px;
+    width:800px;
+    border-radius:20px;
+  }
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("images/kor.jpeg");
+    background-size:cover;
+    background-position:center;
+  }
+  section{
+    position:relative;
+    top:380px;
+    background-color:white;
+    height:785px;
+  }
+  #video{
+    position:relative;
+    float:left;
+    left:100px;
+    bottom:50px;
+  }
+  #map{
+    float:right;
+    position: relative;
+    right:100px;
+    bottom:35px;
+  }
+  #arrow{
+    width:600px;
+    height:200px;
+    position:relative;
+    right:270px;
+    
+  }
+  #capital{
+    color:dodgerblue;
+    font-family: "Trirong", serif;
+    font-size:35px;
+    left:45px;
+    position:relative;
+    top:15px;
+  }
+  #seoul{
+    font-size:25px;
+    position:relative;
+    left:145px;
+    padding-right:170px;  
+  }
+  #map1{
+    color:dodgerblue;
+    font-family:sans-serif;
+    font-size:35px;
+    position:relative;
+    bottom:55px;
+    right:80px;
+  }
+  #geography{
+    font-size:25px;
+    position:relative;
+    left:60px;
+    bottom:55px;
+    padding-right:700px;
+  }

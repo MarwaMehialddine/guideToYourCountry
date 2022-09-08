@@ -1,0 +1,72 @@
+body{
+    background:white;
+    animation-name: example1;
+    animation-duration: 5s;
+  }
+  ul li a {
+    color:black;
+    animation-name:example2;
+    animation-duration:5s;
+  }
+  @keyframes example2{
+    from { color:black;}
+    to{ color:white;}
+  }
+  @keyframes example1{
+    from {background: white;}
+      to {background: black;}
+  }
+  .animation{
+    color:black;
+    animation-name:example;
+    animation-duration:5s;
+  }
+  @keyframes example{
+    from{color:black;}
+    to {color:white;}
+  }
+  .navbar li a:hover{
+    color:crimson;
+    transition:0.3s;
+  
+  }
+  #one{
+   font-size: 4.5em;
+   font-weight: 800;
+   text-shadow: 3px 3px 3px #ababab;
+  color:white;
+    position:relative;
+    top:30px;
+    text-align:none;
+  }
+  #two{
+   font-size: 3.6em;
+   font-weight:650;
+   text-shadow: 3px 3px 3px #ababab;
+    color:white;
+     text-align:none;
+  }
+  #three{
+    font-size: 2em;
+      font-weight: 380;
+    color:white;
+     text-align:none;
+  }
+  p{
+    font-size:30px;
+    margin-right:160px;
+    margin-left:160px;
+  }
+  h2{
+    color:black;
+    font-size: 3.3em;
+    font-family: "Tangerine", serif;
+  }
+  #island{
+    margin:auto;
+    position:relative;
+    top:70px;
+    width:74%;
+    height:660px;
+    background-image:url("images/is.jpeg")
+  }
